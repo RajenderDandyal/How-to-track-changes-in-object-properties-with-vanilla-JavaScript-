@@ -17,3 +17,4 @@ let objChanged = onChange(obj, function (path, value, previousValue) {
 objChanged.a = [1, 2, 4, 36, 4, 5];
 objChanged.b = {apple: 1, mango: 3};
 
+module.exports = obj;
